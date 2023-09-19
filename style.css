@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    width: 360px;
+    border: solid rgb(165, 144, 144);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    padding: 15px 10px;
+    background-color: rgb(192, 178, 178);
+    border-radius: 8px;
+    
+}
+.btn-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.display {
+    box-sizing: border-box;
+    height: 150px;
+    width: 345px;
+    border: solid black 1px;
+    background-color: white;
+    border-radius: 8px;
+}
+.btn {
+    height: 75px;
+    width: 75px;
+    font-size: 30px;
+    border-radius: 8px;
+}
+.delet-clear{
+    width: 345px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn-delet, 
+.btn-clear {
+    height: 50px;
+width: 165px;
+    font-size: 20px;
+    border-radius: 8px;
+}
